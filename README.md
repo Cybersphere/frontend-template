@@ -1,0 +1,2 @@
+# Frontend light template
+

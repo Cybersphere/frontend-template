@@ -1,0 +1,9 @@
+node_modules/
+.idea/
+build/
+package-lock.json
+*.html
+index.html
+yarn.lock
+report.xml
+report/

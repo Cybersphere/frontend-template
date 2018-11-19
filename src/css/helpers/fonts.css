@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Muller;
+  src: url("../resources/fonts/MullerBold.woff2") format("woff2"),
+    url("../resources/fonts/MullerBold.woff2") format("woff");
+  font-display: swap;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Muller;
+  src: url("../resources/fonts/MullerRegular.woff2") format("woff2"),
+    url("../resources/fonts/MullerRegular.woff2") format("woff");
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Muller;
+  src: url("../resources/fonts/MullerMedium.woff2") format("woff2"),
+    url("../resources/fonts/MullerMedium.woff2") format("woff");
+  font-display: swap;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: PTSerif;
+  src: url("../resources/fonts/PTSerifRegular.woff2") format("woff2"),
+    url("../resources/fonts/PTSerifRegular.woff2") format("woff");
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: PTMono;
+  src: url("../resources/fonts/PTMono.woff2") format("woff2"),
+    url("../resources/fonts/PTMono.woff2") format("woff");
+  font-display: swap;
+  font-weight: 400;
+}

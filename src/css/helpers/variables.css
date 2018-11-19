@@ -1,0 +1,98 @@
+/*
+------------------------------------------------------------------
+ COLORS
+------------------------------------------------------------------
+*/
+
+:root {
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --main-color: #3f3f3f;
+  --heading-color: #262626;
+  --main-page-background-color: #FAF8F6;
+  --main-green: #00CAB9;
+  --light-green: #00D7C6;
+  --blue-link-btn: #039BE6;
+  --blue-link-btn-hover: #34BAFC;
+  --btn-secondary-bg-color: #fff;
+  --btn-secondary-color: #525252;
+  --btn-secondary-border-color: #d9d9d9;
+  --btn-secondary-border-color-hover: #999;
+  --btn-transparent-bg-color: transparent;
+  --btn-transparent-border-color: rgba(255, 255, 255, 0.1);
+  --btn-transparent-border-color-hover: rgba(255, 255, 255, 0.4);
+  --done-color: #41D014;
+  --not-done-color: #D9D9D9;
+  --current-color: #FE8A02;
+  --fail-color: #E33A46;
+  --rubric-link-color: #14A9CC;
+
+  /*
+  ------------------------------------------------------------------
+   FONTS
+  ------------------------------------------------------------------
+  */
+  --primary-font: "Muller", Helvetica, Arial sans-serif;
+  --article-font: "PTSerif", Georgia, serif;
+  --code-font: "PTMono", monospace;
+
+  /*
+  ------------------------------------------------------------------
+   SIZES
+  ------------------------------------------------------------------
+  */
+  --header-desktop-height: 100px;
+  --header-banner-height: 200px;
+
+  /*
+  ------------------------------------------------------------------
+   Z-INDEX
+  ------------------------------------------------------------------
+  */
+  --header-ZI: 999;
+  --modal-menu-ZI: 999999;
+  --sidebar-ZI: 90;
+  --footer-ZI: 100;
+  --shadow-ZI: 80;
+  --lectionContent-ZI: 5;
+  --btn-up-ZI: 1040;
+
+  /*
+  ------------------------------------------------------------------
+   ANIMATION
+  ------------------------------------------------------------------
+  */
+  --time: 0.2s;
+
+  /*
+  ------------------------------------------------------------------
+   GRID GUTTER WIDTH
+  ------------------------------------------------------------------
+  */
+  --desktop-gutter-width: 40px;
+  --tablet-gutter-width: 20px;
+
+  /*
+  ------------------------------------------------------------------
+   PAGE CONTENT PADDING
+  ------------------------------------------------------------------
+  */
+  --desktop-gutter-width: 40px;
+  --small-mobile-padding-x: 15px;
+}
+
+/*
+------------------------------------------------------------------
+ CUSTOM MEDIA
+------------------------------------------------------------------
+*/
+
+@custom-media --large (max-width: 1639px);
+@custom-media --laptop (max-width: 1519px);
+@custom-media --tablet (max-width: 1279px);
+@custom-media --no-hover (max-width: 1025px);
+@custom-media --mobile (max-width: 899px);
+@custom-media --mobile-big (max-width: 899px);
+@custom-media --mobile-small (max-width: 539px);
+@custom-media --mobile-middle (max-width: 719px);
+

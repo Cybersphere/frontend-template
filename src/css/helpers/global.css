@@ -1,0 +1,44 @@
+html { box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+address {
+  font-style: normal;
+}
+
+ol,
+ul {
+  padding-left: 20px;
+}
+
+button {
+  outline: none;
+  font-family: var(--primary-font);
+}
+
+button:focus,
+a:focus {
+  outline: none !important; /* для FF */
+}
+
+.pull-right {
+  display: block;
+  float: right;
+}
+
+.visually-hidden {
+  position: absolute;
+  top: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  pointer-events: none;
+}
+
+.clearfix:after {
+  content:" ";
+  display:table;
+  clear:both;
+}
